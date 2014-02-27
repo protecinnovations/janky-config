@@ -1,4 +1,4 @@
 source "http://rubygems.org"
-gem "janky", "~>0.9"
+gem "janky", :git => "git://github.com/github/janky.git"
 gem "pg"
 gem "thin"
