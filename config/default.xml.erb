@@ -56,9 +56,9 @@ if [ ! -d &quot;./.git&quot; ]; then
 fi
 git fetch -q origin
 git reset -q --hard $JANKY_SHA1
-/bin/sh ci/dependencies.sh
+/bin/bash ci/dependencies.sh
 phing phpunit
-ci/after_script.sh
+/bin/bash ci/after_script.sh
 </command>
     </hudson.tasks.Shell>
   </builders>
