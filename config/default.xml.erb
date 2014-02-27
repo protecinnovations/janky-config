@@ -56,7 +56,7 @@ if [ ! -d &quot;./.git&quot; ]; then
 fi
 git fetch -q origin
 git reset -q --hard $JANKY_SHA1
-ci/dependencies.sh
+/bin/sh ci/dependencies.sh
 phing test
 ci/after_script.sh
 </command>
