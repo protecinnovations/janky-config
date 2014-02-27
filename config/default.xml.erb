@@ -49,6 +49,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>
+cd $WORKSPACE
 if [ ! -d &quot;./.git&quot; ]; then
   git init
   git remote add origin <%= repo %>
