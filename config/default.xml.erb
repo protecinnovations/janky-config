@@ -57,7 +57,7 @@ fi
 git fetch -q origin
 git reset -q --hard $JANKY_SHA1
 /bin/sh ci/dependencies.sh
-phing test
+phing phpuunit
 ci/after_script.sh
 </command>
     </hudson.tasks.Shell>
