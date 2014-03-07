@@ -1,6 +1,7 @@
 GIT
-  remote: git://github.com/github/janky.git
-  revision: 49b1ef5487794ba37fd6600aaa3d7821741113c3
+  remote: git://github.com/protecinnovations/janky.git
+  revision: 7d3c098f5c1ef3c7387f2d8ba6018630aced743b
+  branch: bug/587-mark-as-pending-when-queued
   specs:
     janky (0.10.2)
       activerecord (~> 3.2.0)
@@ -43,12 +44,12 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.6.9)
     json (1.8.1)
-    multi_json (1.8.4)
+    multi_json (1.9.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     mustache (0.99.5)
     nap (0.6.0)
-    octokit (2.7.1)
+    octokit (2.7.2)
       sawyer (~> 0.5.2)
     pg (0.17.1)
     rack (1.5.2)
@@ -66,7 +67,7 @@ GEM
     sinatra_auth_github (1.0.0)
       sinatra (~> 1.0)
       warden-github (~> 1.0)
-    thin (1.6.1)
+    thin (1.6.2)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
       rack (>= 1.0.0)
