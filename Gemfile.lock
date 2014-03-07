@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/protecinnovations/janky.git
-  revision: 7d3c098f5c1ef3c7387f2d8ba6018630aced743b
+  revision: 415c24e577d0a17f0bc025c7cf7404417bde48b3
   branch: bug/587-mark-as-pending-when-queued
   specs:
     janky (0.10.2)
