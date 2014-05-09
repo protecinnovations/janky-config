@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/protecinnovations/janky.git
-  revision: 4054b871077886146c51f372fdf6445d642b113e
+  revision: b6a10d1e2d5db4defd9cbd64d023c940380e65e8
   branch: imp/731-give-janky-context
   specs:
     janky (0.10.2)
