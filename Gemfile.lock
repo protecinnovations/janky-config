@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/protecinnovations/janky.git
-  revision: b6a10d1e2d5db4defd9cbd64d023c940380e65e8
+  revision: e504eeea936ac04cfa9017c2baa52fa4d1b08bef
   branch: imp/731-give-janky-context
   specs:
     janky (0.10.2)
@@ -44,7 +44,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.6.9)
     json (1.8.1)
-    multi_json (1.10.0)
+    multi_json (1.10.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     mustache (0.99.5)
